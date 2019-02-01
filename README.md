@@ -76,7 +76,7 @@ java -jar spider.jar bilibili --to500000 --divide1000 --th16
 ## FAQ
 
 * How to start-up Selenium-hub and nodes?
-[^howtostart]
+
 There is a example on windows:
 ```
 java -jar selenium-server-standalone-3.141.59.jar -role hub -maxSession 40 -port 4444
