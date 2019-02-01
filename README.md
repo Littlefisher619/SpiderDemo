@@ -1,5 +1,4 @@
 # SpiderDemo
-------
 A java based spider demo project. Designed for xbiquge and bilibili. And code for homework.
 
 # Dependencies
