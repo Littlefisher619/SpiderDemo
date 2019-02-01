@@ -27,12 +27,12 @@ A java based spider demo project. Designed for xbiquge and bilibili. And code fo
 * Detailed logs
 
 ## Environment
-* Java Runtime Environment 
-* MySQL: 
+* Java Runtime Environment
+* MySQL
     1. Create a database named `spider` assigned to user `spider` with password `spider`. 
     2. Import .sql file in this project. 
     3. Program will access MYSQL through `localhost:3306`.
-* [Selenium Standalone Server](https://www.seleniumhq.org/download/) & [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads): 
+* [Selenium Standalone Server](https://www.seleniumhq.org/download/) & [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
     1. Download and then put them into a folder.
     2. Run Selenium hub and node **BEFORE** you launch spider. [How to start-up hub and node?](#faq)
 
