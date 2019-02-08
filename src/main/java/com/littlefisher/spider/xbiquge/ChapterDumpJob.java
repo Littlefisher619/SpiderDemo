@@ -102,7 +102,7 @@ public class ChapterDumpJob extends Thread {
         try{
             DAOUtil.finishJob(jobid);
         }catch (SQLException e){
-            logger.info(prefix+"failed to clear job cache from database due to a SQLERROR.",e);
+            logger.error(prefix+"failed to clear job cache from database due to a SQLERROR.",e);
         }
         logger.info(prefix+"finished!");
 
